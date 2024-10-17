@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  background: blue;
+}
+
+.container a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: snow;
+}
+
+.container a[class='active']{
+  color: red;
+  text-decoration: underline;
+}

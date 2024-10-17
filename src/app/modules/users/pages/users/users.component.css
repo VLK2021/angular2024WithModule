@@ -1,0 +1,15 @@
+.users{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  padding: 1rem;
+}
+
+.users-single {
+  width: 70%;
+}
+
+.users-outlet{
+  width: 30%;
+}
